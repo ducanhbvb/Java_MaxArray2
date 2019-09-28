@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class MaxArray2 {
-    public static void randomArray(int[][]arr){
+    public static void randomArray2(int[][]arr){
         //int[][] arr=new int[maxCurrent][maxColumn];
         for (int i = 0; i <arr.length ; i++) {
             for (int j = 0; j < arr[i].length; j++) {
@@ -16,7 +16,7 @@ public class MaxArray2 {
         System.out.println("input Max Column");
         int maxColumn=sc.nextInt();
         int[][] All_array=new int[maxCurrent][maxColumn];
-        randomArray(All_array);
+        randomArray2(All_array);
         int max=All_array[0][0];
         for (int i = 0; i <maxCurrent ; i++) {
             for (int j = 0; j <maxColumn ; j++) {
